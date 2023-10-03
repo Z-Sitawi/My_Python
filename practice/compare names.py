@@ -11,7 +11,7 @@ while True:
         while i < x:
             name = str(input(f"Enter nom{i + 1}: "))
             name = name.upper()
-            names.insert(i, name)
+            names.append(name)
             i += 1
 
         print(names)
